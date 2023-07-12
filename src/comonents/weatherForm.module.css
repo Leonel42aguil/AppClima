@@ -1,0 +1,25 @@
+.container {
+    margin: 10px 0;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 0;
+    border-radius: 3px;
+}
+
+@media (max-width: 530px) {
+    .container {
+        width: 340px;
+        margin: 10px auto;
+        padding-bottom: 10px;
+    } 
+
+    .input{
+        height: 60px;
+    }
+
+  }
